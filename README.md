@@ -1,5 +1,5 @@
 # DREAM Challenge 2022
-## Predicting gene expression using millions of random promoter sequences by Team Unlock_DNA
+## Predicting gene expression using millions of random promoter sequences by Team `Unlock_DNA`
 
 * Model checkpoint
 

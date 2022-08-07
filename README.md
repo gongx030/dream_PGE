@@ -20,3 +20,7 @@
 * The JSON file for prediction:
 
 `https://s3.msi.umn.edu/gongx030/projects/dream_PGE/predictions/m20220727e/pred.json`
+
+* Final report
+
+`https://github.com/gongx030/dream_PGE/blob/main/report.pdf`

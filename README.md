@@ -1,19 +1,17 @@
 # DREAM Challenge 2022
-## Predicting gene expression using millions of random promoter sequences by Team `Unlock_DNA`
+## Predicting gene expression using millions of random promoter sequences
 
-Wuming Gong, Byeong-Chan Kim, Juhyun Lee, Il-Youp Kwak
+Wuming Gong, Byeong-Chan Kim, Juhyun Lee, Il-Youp Kwak (team **Unlock_DNA**)
 
 ## Abstract
 
-The breakthrough high-throughput measurement of the cis-regulatory activity of millions of randomly generated promoters provides an unprecedented opportunity for us to systematically decode the cis-regulatory logic that determines the expression values. In this DREAM challenge, we developed an end-to-end Transformer encoder architecture (Proformer) to predict the expression values from DNA sequences. Proformer used a Macaron-like Transformer encoder architecture, where two half-step feed forward (FFN) layers were placed at the beginning and the end of each encoder block, and a separable 1D convolution layer was inserted after the first FFN layer and in front of the multi-head attention layer. The sliding k-mers from one-hot encoded sequences were mapped onto a continuous embedding, combined with the learnt positional embedding and strand embedding (forward strand vs reverse complement strand) as the sequence input. Along with the sequence input, we added several positions (32 in our final model) of "pseudo" expression values as the input, where all input expression values were zero's. Proformer predicted one expression value for each "pseudo" expression position and used the mean of the prediction of all positions as the final predicted expression value. We empirically found that this design had significantly better performance than the conventional design such as using the global pooling layer as the output layer for the regression task. We believe that Proformer provides a novel method of learning and characterizing how cis-regulatory sequences determine the expression values. 
+The breakthrough high-throughput measurement of the cis-regulatory activity of millions of randomly generated promoters provides an unprecedented opportunity for us to systematically decode the cis-regulatory logic that determines the expression values. In this [DREAM challenge](https://www.synapse.org/#!Synapse:syn28469146/wiki/617075), we developed an end-to-end Transformer encoder architecture (Proformer) to predict the expression values from DNA sequences. Proformer used a Macaron-like Transformer encoder architecture, where two half-step feed forward (FFN) layers were placed at the beginning and the end of each encoder block, and a separable 1D convolution layer was inserted after the first FFN layer and in front of the multi-head attention layer. The sliding k-mers from one-hot encoded sequences were mapped onto a continuous embedding, combined with the learnt positional embedding and strand embedding (forward strand vs reverse complement strand) as the sequence input. Along with the sequence input, we added several positions (32 in our final model) of "pseudo" expression values as the input, where all input expression values were zero's. Proformer predicted one expression value for each "pseudo" expression position and used the mean of the prediction of all positions as the final predicted expression value. We empirically found that this design had significantly better performance than the conventional design such as using the global pooling layer as the output layer for the regression task. We believe that Proformer provides a novel method of learning and characterizing how cis-regulatory sequences determine the expression values. Proformer (team `Unlock_DN`) ranked in **3rd place** in the [final standing](https://www.synapse.org/#!Synapse:syn28469146/wiki/619131) of the DREAM challenge. 
 
 ## Proformer model
 
 #### A hybrid Macaron transformer model predicts expression values from promoter sequences. 
 
 <img width="1080" alt="Screen Shot 2022-09-12 at 3 56 06 PM" src="https://user-images.githubusercontent.com/16770031/189757055-94ef8cce-1299-47c7-b160-283ed442a71f.png">
-
-
 
 * Model checkpoint
 

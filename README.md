@@ -11,7 +11,8 @@ The breakthrough high-throughput measurement of the cis-regulatory activity of m
 
 #### A hybrid Macaron transformer model predicts expression values from promoter sequences. 
 
-<img width="1080" alt="Screen Shot 2022-09-12 at 3 56 06 PM" src="https://user-images.githubusercontent.com/16770031/189757055-94ef8cce-1299-47c7-b160-283ed442a71f.png">
+<img width="1203" alt="Screen Shot 2022-10-26 at 11 53 35 AM" src="https://user-images.githubusercontent.com/16770031/198087724-a744440f-680c-48bd-90c9-05635b9b9dd4.png">
+
 
 * Model checkpoint
 

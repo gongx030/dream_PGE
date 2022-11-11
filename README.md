@@ -9,8 +9,7 @@ The breakthrough high-throughput measurement of the cis-regulatory activity of m
 
 ## Talk in RSG/DREAM 2022
 
-[![rsgdream_talk](https://img.youtube.com/vi/U5VcP0fyTyc/0.jpg)](https://www.youtube.com/watch?v=U5VcP0fyTyc)
-
+[![rsgdream_talk](https://img.youtube.com/vi/U5VcP0fyTyc/0.jpg)](https://www.youtube.com/watch?v=U5VcP0fyTyc) 
 
 ## Proformer model
 

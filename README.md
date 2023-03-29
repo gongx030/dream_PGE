@@ -11,6 +11,8 @@ The breakthrough high-throughput measurement of the cis-regulatory activity of m
 
 [![rsgdream_talk](https://img.youtube.com/vi/U5VcP0fyTyc/0.jpg)](https://www.youtube.com/watch?v=U5VcP0fyTyc) 
 
+The presentations can be found here in [pdf](https://github.com/gongx030/dream_PGE/blob/main/rsgdream_talk.pdf) or in [powerpoint](https://github.com/gongx030/dream_PGE/blob/main/rsgdream_talk.pptx). 
+
 ## Proformer model
 
 #### A hybrid Macaron transformer model predicts expression values from promoter sequences. 
